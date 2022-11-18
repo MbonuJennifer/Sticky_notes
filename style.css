@@ -31,10 +31,45 @@ body {
   margin: 5% 13%;
   padding: 5rem;
 }
-.div-jenn{
-    height: 15rem;
-    width: 13rem;
-    background-color: #ffd865;
-    overflow-y: scroll;
-    padding: 1rem;
+.div-jenn {
+  height: 15rem;
+  width: 13rem;
+  background-color: #ffd865;
+  overflow-y: scroll;
+  padding: 1rem;
+  border-radius: 1px;
+  border: 1px solid white;
+  scrollbar-color: red;
+  transition: scrollbar-color 0.3s ease-out;
+  margin: 40px 0;
+ 
+}
+.div-jenn::-webkit-scrollbar {
+  width: 10px;
+}
+
+.div-jenn::-webkit-scrollbar-track {
+  background-color: #ffd865;
+  border-radius: 100px;
+}
+
+.div-jenn::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+
+.jenn-img {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  left: 165px;
+  top: 100px;
+}
+.jenn-img2 {
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  left: 275px;
+  top: 110px;
 }
