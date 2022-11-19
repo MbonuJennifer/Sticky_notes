@@ -31,6 +31,18 @@ body {
   margin: 5% 13%;
   padding: 5rem;
 }
+.coloumn,
+.coloumn1
+ {
+  float: left;
+  width: 25%;
+}
+.row:after,
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* *********sTYLING FOR jennifer'S NOTE******* */
 .div-jenn {
@@ -43,8 +55,7 @@ body {
   border: 1px solid white;
   scrollbar-color: red;
   transition: scrollbar-color 0.3s ease-out;
-  margin: 40px 0;
- 
+  /* margin: 40px 0; */
 }
 .div-jenn::-webkit-scrollbar {
   width: 10px;
@@ -66,14 +77,14 @@ body {
   height: 30px;
   position: fixed;
   left: 165px;
-  top: 100px;
+  top: 60px;
 }
 .jenn-img2 {
   width: 20px;
   height: 20px;
   position: fixed;
   left: 275px;
-  top: 110px;
+  top: 70px;
 }
 
 .maindiv-benny {
@@ -90,18 +101,18 @@ body {
   text-align: center;
   position: relative;
 }
- 
-  .benny-img {
-    width:30px;
-    height: 30px;
-    position: fixed;
-    left: 165px;
-    top: 380px;
-  }
-  .benny-img2 {
-    width: 20px;
-    height: 20px;
-    position: fixed;
-    left: 275px;
-    top: 390px;
-  }
+
+.benny-img {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  left: 165px;
+  top: 340px;
+}
+.benny-img2 {
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  left: 275px;
+  top: 350px;
+}
