@@ -32,8 +32,7 @@ body {
   padding: 5rem;
 }
 .coloumn,
-.coloumn1
- {
+.coloumn1 {
   float: left;
   width: 25%;
 }
@@ -53,7 +52,7 @@ body {
   padding: 1rem;
   border-radius: 1px;
   border: 1px solid white;
-  scrollbar-color: red;
+
   transition: scrollbar-color 0.3s ease-out;
   /* margin: 40px 0; */
 }
@@ -95,9 +94,9 @@ body {
   padding: 1rem;
   border-radius: 1px;
   border: 1px solid white;
-  scrollbar-color: red;
+
   transition: scrollbar-color 0.3s ease-out;
-  margin: 40px 0;
+  /* margin-top: 40px; */
   text-align: center;
   position: relative;
 }
@@ -117,15 +116,16 @@ body {
   top: 350px;
 }
 
-
 /* Styling for Marvelous's note */
 .maindiv-marvy {
-  width: 230px;
-  height: 230px;
+  height: 15rem;
+  width: 13rem;
   background-color: rgb(24, 24, 110);
   color: aliceblue;
-  margin-left: 300px;
+  overflow-y: scroll;
+
+  /* margin-left: 300px; */
   text-align: center;
-  padding: 10px;
-  border: 3px solid rgb(146, 74, 23);
+  padding: 1px;
+  border: 1px solid rgb(146, 74, 23);
 }
