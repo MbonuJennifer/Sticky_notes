@@ -75,3 +75,33 @@ body {
   left: 275px;
   top: 110px;
 }
+
+.maindiv-benny {
+  height: 15rem;
+  width: 13rem;
+  background-color: #65ffff;
+  overflow-y: scroll;
+  padding: 1rem;
+  border-radius: 1px;
+  border: 1px solid white;
+  scrollbar-color: red;
+  transition: scrollbar-color 0.3s ease-out;
+  margin: 40px 0;
+  text-align: center;
+  position: relative;
+}
+ 
+  .benny-img {
+    width:30px;
+    height: 30px;
+    position: fixed;
+    left: 165px;
+    top: 380px;
+  }
+  .benny-img2 {
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    left: 275px;
+    top: 390px;
+  }
