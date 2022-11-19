@@ -116,3 +116,16 @@ body {
   left: 275px;
   top: 350px;
 }
+
+
+/* Styling for Marvelous's note */
+.maindiv-marvy {
+  width: 230px;
+  height: 230px;
+  background-color: rgb(24, 24, 110);
+  color: aliceblue;
+  margin-left: 300px;
+  text-align: center;
+  padding: 10px;
+  border: 3px solid rgb(146, 74, 23);
+}
