@@ -129,3 +129,18 @@ body {
   padding: 1px;
   border: 1px solid rgb(146, 74, 23);
 }
+/* styling for Ruth's Note */
+.Maindiv-Ruthie {
+  height: 15rem;
+  width: 13rem;
+  background-color: firebrick;
+  color: antiquewhite;
+  overflow-x: auto;
+  overflow-y: scroll;
+  padding: 1rem;
+  border-radius: 1px;
+  border: 1px solid white;
+  text-align: center;
+  transition: scrollbar-color 0.3s ease-out;
+  margin-top: 15px;
+}
